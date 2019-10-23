@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
+''' coded by ekko '''
+
 import sqlite3
 import os
 import win32crypt
