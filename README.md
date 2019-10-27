@@ -1,5 +1,5 @@
 ###  Captura de senhas - Google chrome
-####[pt-br]: 
+###[pt-br]: 
 
 1. Primeiro, faça o download do arquivo através do comando:
    - git clone https://github,com/ekkopy/chrome-capture.git ou baixe o arquivo em .zip e extraia no local de sua preferência.
